@@ -12,10 +12,10 @@ namespace CapstoneDb.Models
         public Guid CommentId { get; set; }
         public Guid PostId { get; set; }
         public Post Post { get; set; }
+        public string CommentContent { get; set; }
 
-        public Guid UserAccountId { get; set; }
+        public Guid? UserAccountId { get; set; }
         public UserAccount UserAccount { get; set; }
 
-        public string CommentContent { get; set; }
     }
 }

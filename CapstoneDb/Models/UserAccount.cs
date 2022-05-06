@@ -26,10 +26,10 @@ namespace CapstoneDb.Models
         public string AboutMe { get; set; }
         public string ProfilePhotoPath { get; set; }
 
-        public ICollection<Friend> Friends { get; set; }
-        public ICollection<Comment> Comments { get; set; }
-        public ICollection<Like> Likes { get; set; }
-        public ICollection<Post> Posts { get; set; }
-        public ICollection<Album> Albums { get; set; }
+        public ICollection<Friend>? Friends { get; set; }
+        public ICollection<Comment>? Comments { get; set; }
+        public ICollection<Like>? Likes { get; set; }
+        public ICollection<Post>? Posts { get; set; }
+        public ICollection<Album>? Albums { get; set; }
     }
 }

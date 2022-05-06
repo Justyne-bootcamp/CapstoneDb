@@ -14,7 +14,7 @@ namespace CapstoneDb.Models
         public Post Post { get; set; }
 
         //userId of liker
-        public Guid UserAccountId { get; set; }
+        public Guid? UserAccountId { get; set; }
         public UserAccount UserAccount { get; set; }
 
     }
